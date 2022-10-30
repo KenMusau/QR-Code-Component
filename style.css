@@ -21,9 +21,10 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    font-weight: Outfit, sans-serif;
-    font-family: 400;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
     text-align: center;
+    
 }
 
 .qr_container{
@@ -33,12 +34,16 @@ body{
     padding: 13.5px;
 }
 
+.qr_image{
+    aspect-ratio: 1/1;
+}
 .qr_image img{
     max-width: 100%;
     border-radius: 7.5px;
 }
 
 .qr_text{
+    
     padding: 10px ; 
 }
 
